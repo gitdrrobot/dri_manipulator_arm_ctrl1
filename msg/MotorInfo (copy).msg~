@@ -1,0 +1,8 @@
+# jaguar arm motor command message from DrRobot Robot.
+
+Header header    	# timestamp in the header is the time the driver
+		 	# returned the battery/power reading
+uint32 motorID		# motor ID number
+int32 motorCmd	        # motor Comamnd value
+int32 motorCtrl		# motor ctrl method , 0-- PWM, 1-- velocity  2-- position
+
